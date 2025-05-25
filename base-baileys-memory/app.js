@@ -12,7 +12,9 @@ import path from 'path';
 import { fileURLToPath } from 'url';
 import fs from 'fs';
 
-const usuariosSaludados = new Set();
+//Consultas de la BD
+import { guardarNumero } from './consultasDB.js';
+
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 const prompt = path.join(__dirname, 'prompt.txt');
@@ -24,6 +26,7 @@ const flowPrincipal = addKeyword(EVENTS.WELCOME)
         '¡Hola! 👋 Soy tu guía de admisiones de la *Universidad Tecnológica de León*.\n\n¿Tienes dudas sobre cómo inscribirte, qué carrera elegir, o qué fechas tener en cuenta?\n\nEscribime tu pregunta y te oriento paso a paso.',
         { capture: true },
         async (ctx, { gotoFlow }) => {
+            guardarNumero(ctx.from)
             return gotoFlow(flowConsulta);
         }
     );

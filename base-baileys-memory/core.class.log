@@ -1,27 +1,27 @@
 [handleMsg]:  {
   key: {
-    remoteJid: '5214722437560@s.whatsapp.net',
+    remoteJid: '5214721552574@s.whatsapp.net',
     fromMe: false,
-    id: 'FB24B62BDA7485F09D8F6D8ED4DF45EF',
+    id: '1EAB4B3197815D6423196AFC1E4954B2',
     participant: undefined
   },
-  messageTimestamp: 1748203422,
-  pushName: '☆Kenia☆^^',
+  messageTimestamp: 1748206955,
+  pushName: '𝐼𝑉𝑂𝑁𝑁𝐸 ♥︎',
   broadcast: false,
   message: Message {
-    conversation: 'Hola',
+    conversation: 'JAJAJAJA',
     messageContextInfo: MessageContextInfo {
       deviceListMetadata: [DeviceListMetadata],
       deviceListMetadataVersion: 2,
       messageSecret: [Uint8Array]
     }
   },
-  body: 'Hola',
-  from: '5214722437560'
+  body: 'JAJAJAJA',
+  from: '5214721552574'
 }
 [QUEUE_SE_ENVIO]:  {
-  ref: 'ans_0932d799-5d4f-4e0c-96d6-ab0693182106',
-  keyword: 'key_924f2abb-1cf9-4421-9d63-922e3943327b',
+  ref: 'ans_cea3d36d-aa60-4015-912b-f23a482a2186',
+  keyword: 'key_f851b245-f4a6-4a48-a119-a0021bb19c84',
   answer: '¡Hola! 👋 Soy tu guía de admisiones de la *Universidad Tecnológica de León*.\n' +
     '\n' +
     '¿Tienes dudas sobre cómo inscribirte, qué carrera elegir, o qué fechas tener en cuenta?\n' +
@@ -39,53 +39,121 @@
     keyword: {},
     callback: true
   },
-  refSerialize: '01b9ca7c9be462bdf67de1ec08c6d380'
+  refSerialize: '419ce7c1750e809ea8c31da0e4c40c48'
 }
 [handleMsg]:  {
   key: {
-    remoteJid: '5214722437560@s.whatsapp.net',
+    remoteJid: '5214721552574@s.whatsapp.net',
     fromMe: false,
-    id: '11BE70C7DCACC94386DFB14F9692E4B1',
+    id: 'FD8CA00561E580DA9ED43EA59A77193F',
     participant: undefined
   },
-  messageTimestamp: 1748203429,
-  pushName: '☆Kenia☆^^',
+  messageTimestamp: 1748206963,
+  pushName: '𝐼𝑉𝑂𝑁𝑁𝐸 ♥︎',
   broadcast: false,
   message: Message {
-    conversation: 'Que carreras tienes?',
+    conversation: 'Hola',
     messageContextInfo: MessageContextInfo {
       deviceListMetadata: [DeviceListMetadata],
       deviceListMetadataVersion: 2,
       messageSecret: [Uint8Array]
     }
   },
-  body: 'Que carreras tienes?',
-  from: '5214722437560'
+  body: 'Hola',
+  from: '5214721552574'
 }
 [handleMsg]:  {
   key: {
-    remoteJid: '5214722437560@s.whatsapp.net',
+    remoteJid: '5214761811897@s.whatsapp.net',
     fromMe: false,
-    id: '43E8E4B4D6BEBCDCFD2982836AA322EF',
+    id: '3A7A8ADEFF07BEC3011A',
     participant: undefined
   },
-  messageTimestamp: 1748203441,
-  pushName: '☆Kenia☆^^',
+  messageTimestamp: 1748207038,
+  pushName: 'Benyi',
   broadcast: false,
   message: Message {
-    conversation: 'Costos',
+    conversation: 'Porque?',
     messageContextInfo: MessageContextInfo {
       deviceListMetadata: [DeviceListMetadata],
       deviceListMetadataVersion: 2,
       messageSecret: [Uint8Array]
     }
   },
-  body: 'Costos',
-  from: '5214722437560'
+  body: 'Porque?',
+  from: '5214761811897'
 }
 [QUEUE_SE_ENVIO]:  {
-  ref: 'ans_5dbf6135-c164-42e9-8138-991f6d9dad06',
-  keyword: 'ans_c5debbaf-cb70-4a4b-b044-750d96084a83',
+  ref: 'ans_cea3d36d-aa60-4015-912b-f23a482a2186',
+  keyword: 'key_f851b245-f4a6-4a48-a119-a0021bb19c84',
+  answer: '¡Hola! 👋 Soy tu guía de admisiones de la *Universidad Tecnológica de León*.\n' +
+    '\n' +
+    '¿Tienes dudas sobre cómo inscribirte, qué carrera elegir, o qué fechas tener en cuenta?\n' +
+    '\n' +
+    'Escribime tu pregunta y te oriento paso a paso.',
+  options: {
+    media: null,
+    buttons: [],
+    capture: true,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: '419ce7c1750e809ea8c31da0e4c40c48'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5214761811897@s.whatsapp.net',
+    fromMe: false,
+    id: '3A9030792CA8C4C8BCD9',
+    participant: undefined
+  },
+  messageTimestamp: 1748207072,
+  pushName: 'Benyi',
+  broadcast: false,
+  message: Message {
+    extendedTextMessage: ExtendedTextMessage {
+      text: 'Ah si el flujo welcome',
+      contextInfo: [ContextInfo]
+    },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  status: 4,
+  body: 'Ah si el flujo welcome',
+  from: '5214761811897'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5214761811897@s.whatsapp.net',
+    fromMe: false,
+    id: '3A30F3188F8F7EF704E0',
+    participant: undefined
+  },
+  messageTimestamp: 1748207087,
+  pushName: 'Benyi',
+  broadcast: false,
+  message: Message {
+    conversation: 'Que carreras hay?',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: 'Que carreras hay?',
+  from: '5214761811897'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_12d7efaa-1cad-4fc3-9fa8-3dc951d01d1d',
+  keyword: 'ans_5919801a-282b-4ef1-b165-791147c9611a',
   answer: '__call_action__',
   options: {
     media: null,
@@ -99,5 +167,86 @@
     keyword: {},
     callback: true
   },
-  refSerialize: 'e13c01cc3e060b8743c0e377068d4d7d'
+  refSerialize: '82e84410b3d345da153d04fb56592305'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5214761811897@s.whatsapp.net',
+    fromMe: false,
+    id: '3A1B59A2BA2FE8DE106E',
+    participant: undefined
+  },
+  messageTimestamp: 1748207090,
+  pushName: 'Benyi',
+  broadcast: false,
+  message: Message {
+    extendedTextMessage: ExtendedTextMessage {
+      text: 'Con razón',
+      contextInfo: [ContextInfo]
+    },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: 'Con razón',
+  from: '5214761811897'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_12d7efaa-1cad-4fc3-9fa8-3dc951d01d1d',
+  keyword: 'ans_5919801a-282b-4ef1-b165-791147c9611a',
+  answer: '__call_action__',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: '82e84410b3d345da153d04fb56592305'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5214761811897@s.whatsapp.net',
+    fromMe: false,
+    id: '3A10E12B56385A54CA86',
+    participant: undefined
+  },
+  messageTimestamp: 1748207138,
+  pushName: 'Benyi',
+  broadcast: false,
+  message: Message {
+    extendedTextMessage: ExtendedTextMessage { text: 'Ojo', contextInfo: [ContextInfo] },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: 'Ojo',
+  from: '5214761811897'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_12d7efaa-1cad-4fc3-9fa8-3dc951d01d1d',
+  keyword: 'ans_5919801a-282b-4ef1-b165-791147c9611a',
+  answer: '__call_action__',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: '82e84410b3d345da153d04fb56592305'
 }
