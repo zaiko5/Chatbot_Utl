@@ -24,24 +24,34 @@ const flowPrincipal = addKeyword(EVENTS.WELCOME)
         '¡Hola! 👋 Soy tu guía de admisiones de la *Universidad Tecnológica de León*.\n\n¿Tienes dudas sobre cómo inscribirte, qué carrera elegir, o qué fechas tener en cuenta?\n\nEscribime tu pregunta y te oriento paso a paso.',
         { capture: true },
         async (ctx, { gotoFlow }) => {
-            return gotoFlow(flowConsultas);
+            return gotoFlow(flowConsulta);
         }
     );
 
 // Flujo de consultas que usa Gemini
-const flowConsultas = addKeyword(EVENTS.ACTION)
-    .addAnswer("¿Tienes alguna otra consulta? ✍️", { capture: true })
+const flowConsulta = addKeyword(EVENTS.ACTION)
+    .addAnswer({ capture: true })
     .addAction(async (ctx, { flowDynamic, gotoFlow }) => {
         const consulta = ctx.body;
         const answer = await responderGemini(promptL, consulta);
         await flowDynamic(answer); // Mostramos la respuesta
         console.log(answer)
-        return gotoFlow(flowConsultas)
+        return gotoFlow(flowSegundaConsulta)
+    });
+
+const flowSegundaConsulta = addKeyword(EVENTS.ACTION)
+    .addAnswer("Tienes alguna otra consulta sobre la utl?", { capture: true })
+    .addAction(async (ctx, { flowDynamic, gotoFlow }) => {
+        const consulta = ctx.body;
+        const answer = await responderGemini(promptL, consulta);
+        await flowDynamic(answer); // Mostramos la respuesta
+        console.log(answer)
+        return gotoFlow(flowSegundaConsulta)
     });
 
 const main = async () => {
     const adapterDB = new MockAdapter();
-    const adapterFlow = createFlow([flowPrincipal, flowConsultas]);
+    const adapterFlow = createFlow([flowPrincipal, flowConsulta, flowSegundaConsulta]);
     const adapterProvider = createProvider(BaileysProvider);
 
     createBot({

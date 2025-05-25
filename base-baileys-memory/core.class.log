@@ -1,0 +1,103 @@
+[handleMsg]:  {
+  key: {
+    remoteJid: '5214722437560@s.whatsapp.net',
+    fromMe: false,
+    id: 'FB24B62BDA7485F09D8F6D8ED4DF45EF',
+    participant: undefined
+  },
+  messageTimestamp: 1748203422,
+  pushName: '☆Kenia☆^^',
+  broadcast: false,
+  message: Message {
+    conversation: 'Hola',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: 'Hola',
+  from: '5214722437560'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_0932d799-5d4f-4e0c-96d6-ab0693182106',
+  keyword: 'key_924f2abb-1cf9-4421-9d63-922e3943327b',
+  answer: '¡Hola! 👋 Soy tu guía de admisiones de la *Universidad Tecnológica de León*.\n' +
+    '\n' +
+    '¿Tienes dudas sobre cómo inscribirte, qué carrera elegir, o qué fechas tener en cuenta?\n' +
+    '\n' +
+    'Escribime tu pregunta y te oriento paso a paso.',
+  options: {
+    media: null,
+    buttons: [],
+    capture: true,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: '01b9ca7c9be462bdf67de1ec08c6d380'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5214722437560@s.whatsapp.net',
+    fromMe: false,
+    id: '11BE70C7DCACC94386DFB14F9692E4B1',
+    participant: undefined
+  },
+  messageTimestamp: 1748203429,
+  pushName: '☆Kenia☆^^',
+  broadcast: false,
+  message: Message {
+    conversation: 'Que carreras tienes?',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: 'Que carreras tienes?',
+  from: '5214722437560'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5214722437560@s.whatsapp.net',
+    fromMe: false,
+    id: '43E8E4B4D6BEBCDCFD2982836AA322EF',
+    participant: undefined
+  },
+  messageTimestamp: 1748203441,
+  pushName: '☆Kenia☆^^',
+  broadcast: false,
+  message: Message {
+    conversation: 'Costos',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: 'Costos',
+  from: '5214722437560'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_5dbf6135-c164-42e9-8138-991f6d9dad06',
+  keyword: 'ans_c5debbaf-cb70-4a4b-b044-750d96084a83',
+  answer: '__call_action__',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: 'e13c01cc3e060b8743c0e377068d4d7d'
+}
