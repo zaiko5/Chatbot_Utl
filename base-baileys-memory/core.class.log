@@ -1,0 +1,78 @@
+[handleMsg]:  {
+  key: {
+    remoteJid: '5214722437560@s.whatsapp.net',
+    fromMe: false,
+    id: 'B108A12BCC4B921A3EBC6521F420FE79',
+    participant: undefined
+  },
+  messageTimestamp: 1748186270,
+  pushName: '☆Kenia☆^^',
+  broadcast: false,
+  message: Message {
+    conversation: 'Hola',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: 'Hola',
+  from: '5214722437560'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_cdd7ad9e-d86b-4906-b195-d933be33bbd0',
+  keyword: 'key_00b9bb32-2037-47ea-9b54-99e08aa83810',
+  answer: '__call_action__',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: '1cba1e94cb45d29f5ffc2a1544893452'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5214722437560@s.whatsapp.net',
+    fromMe: false,
+    id: 'E69B29EE0767C73FE00D09DB74869128',
+    participant: undefined
+  },
+  messageTimestamp: 1748186272,
+  pushName: '☆Kenia☆^^',
+  broadcast: false,
+  message: Message {
+    conversation: 'Hola',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: 'Hola',
+  from: '5214722437560'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_cdd7ad9e-d86b-4906-b195-d933be33bbd0',
+  keyword: 'key_00b9bb32-2037-47ea-9b54-99e08aa83810',
+  answer: '__call_action__',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: '1cba1e94cb45d29f5ffc2a1544893452'
+}
